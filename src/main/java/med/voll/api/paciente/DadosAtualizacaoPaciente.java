@@ -9,6 +9,5 @@ public record DadosAtualizacaoPaciente(
         Long id,
         String nome,
         String telefone,
-        @Valid
-        DadosEndereco endereco) {
+        @Valid DadosEndereco endereco) {
 }
